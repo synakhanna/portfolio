@@ -13,12 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
       
       // Add click event listener to pop the bubble
       bubble.addEventListener('click', function() {
-          popBubble(bubble);
+          popBubble(bubble);    
       });
-
-      bubble.addEventListener('touchstart', function() {
-        popBubble(bubble);
-       });
       
       document.querySelector('.bubble-section').appendChild(bubble);
   }
